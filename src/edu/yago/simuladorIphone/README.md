@@ -21,7 +21,13 @@ class ReprodutorMusical {
     class iPhone {
     }
 
-    iPhone --> ReprodutorMusical <-- IPod
-    iPhone --> AparelhoTelefonico <-- Discador
-    iPhone --> NavegadorInternet <-- Safari
+    iPhone --> ReprodutorMusical 
+    iPhone --> AparelhoTelefonico 
+    iPhone --> NavegadorInternet
+
+    IPod --> ReprodutorMusical
+    Discador --> AparelhoTelefonico
+    Safari --> NavegadorInternet
+     
+
 ```
